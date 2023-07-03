@@ -71,9 +71,9 @@ const config: HardhatUserConfig = {
       accounts: [privateKey],
     },
     myNetwork: {
-      url: "http://127.0.0.1:3545",
+      url: "http://127.0.0.1:1545",
       accounts: [privateKey],
-      gas: 30000000000000,
+      gas: 300000000,
     },
   },
   etherscan: {
